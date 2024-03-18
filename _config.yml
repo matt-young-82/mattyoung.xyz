@@ -21,7 +21,7 @@
 title: Matt Young Hacking
 email: matt@mattyoung.xyz
 description: >- # this means to ignore newlines until "baseurl:"
-  Explore Matt Young's technical showcase and delve into the realm of CTF challenges and ethical hacking. 
+  Explore Matt Young's technical showcase and dive into the realm of CTF challenges and ethical hacking. 
   This portal offers a curated selection of walkthroughs, analysis, and insights into cybersecurity's pressing issues. 
   It's a space where theory meets practice, providing resources for learners and displaying a professional portfolio for the cybersecurity community.
 baseurl: "" # the subpath of your site, e.g. /blog

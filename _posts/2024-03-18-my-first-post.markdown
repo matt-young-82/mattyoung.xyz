@@ -1,29 +1,61 @@
 ---
 layout: post
-title:  "Diving into CTF: Unveiling the XYZ Challenge"
-date:   2024-03-18 09:16:09 -0600
-categories: ctf walkthrough cybersecurity
+title: "Hacking the 'Blue' Box on HackTheBox: A Journey Through EternalBlue"
+date: 2024-03-18
+categories: cybersecurity hacking HackTheBox EternalBlue
 ---
-Welcome to my first post on this technical journey through cybersecurity challenges and ethical hacking. In this article, I'll walk you through the XYZ CTF challenge, dissecting each step to provide insights and strategies that led me to a successful resolution.
 
-Capture The Flag (CTF) challenges are a great way to hone your cybersecurity skills. They require a blend of creativity, critical thinking, and technical acumen. The XYZ challenge was no exception, presenting a mix of cryptography, network security, and reverse engineering tasks.
+Hacking the 'Blue' Box on HackTheBox: A Journey Through EternalBlue
 
-Here's a quick rundown of the challenge:
+The journey through hacking the "Blue" box on HackTheBox (HTB) is both a beginning and an enlightenment for many aspiring cyber security enthusiasts. "Blue" is notably one of the simplest machines on HTB, yet it brilliantly encapsulates the dangers posed by the infamous EternalBlue exploit. This exploit has not only made headlines but has also underlined the significance of cybersecurity vigilance by being at the heart of numerous ransomware and crypto-mining attacks since its leak.
 
-1. **Cryptography**: Decrypting the messages to find the hidden information.
-2. **Network Security**: Analyzing network traffic to identify suspicious activity.
-3. **Reverse Engineering**: Disassembling the given binary to understand its functionality.
+About "Blue"
 
-{% highlight bash %}
-# Command used to decrypt the message
-decrypt-tool --input encrypted.msg --output decrypted.txt
+"Blue" serves as a prime learning platform, embodying the severity of the EternalBlue exploit. The simplicity of this box belies the potential havoc such vulnerabilities can wreak across countless systems worldwide.
 
-# Analyzing network traffic
-tcpdump -r network-traffic.pcap
-{% endhighlight %}
+## The EternalBlue Exploit
 
-I'll break down these tasks further in the full walkthrough, detailing the thought process and the tools I used.
+EternalBlue is a cyberattack exploit developed by the NSA. It leverages a vulnerability in Microsoft's implementation of the Server Message Block (SMB) protocol. This exploit was leaked by the Shadow Brokers in 2017 and has since been used in various significant cyberattacks, including the WannaCry ransomware outbreak.
 
-If you're eager to dive deeper into CTF challenges or want to start your journey in cybersecurity, stay tuned for more posts. Feel free to reach out through the comments section or via social media for any discussions or questions!
+## Hacking Process
 
-Remember to replace 'XYZ' with the actual name of the challenge and the corresponding details in your actual post. Once you're done, save the file with a fitting name, such as `2024-03-18-unveiling-xyz-challenge.md`, and place it in your `_posts` directory. Then, you can run `jekyll serve` to see your post live!
+### Reconnaissance
+
+The first step in hacking the "Blue" box, as with any penetration testing, involves reconnaissance. I used tools like Nmap to scan for open ports and vulnerabilities. The command used was:
+
+    nmap -sC -sV -oN nmap/blue_initial_scan.txt 10.10.10.40
+
+This scan revealed the presence of several open SMB ports, hinting at the vulnerability exploited by EternalBlue.
+
+### Gaining Access
+
+With the knowledge of open SMB ports, the next step involved exploiting the EternalBlue vulnerability. For this, I turned to Metasploit, a popular penetration testing framework. The specific module used was `exploit/windows/smb/ms17_010_eternalblue`.
+
+    msfconsole
+    use exploit/windows/smb/ms17_010_eternalblue
+    set RHOSTS 10.10.10.40
+    run
+
+This exploit attempts to execute arbitrary code on the target system through the SMB vulnerability.
+
+### Exploitation
+
+Upon successful exploitation, I gained access to the target machine. This access allowed me to explore the system, search for sensitive files, and understand the machine's configuration and the security lapses present.
+
+### Post-Exploitation
+
+The post-exploitation phase involved consolidating access, escalating privileges, and covering tracks. Tools and scripts were used to explore user directories, escalate privileges to gain administrative access, and search for flags required to complete the challenge on HTB.
+
+## Lessons Learned
+
+The "Blue" box, through its simplicity, taught critical lessons in cybersecurity:
+
+- **The Importance of Patching:** Regular updates and patches are crucial in protecting systems from known exploits.
+- **Awareness of Common Vulnerabilities:** Knowledge of exploits like EternalBlue is vital for both offense and defense in cybersecurity.
+- **The Power of Penetration Testing Tools:** Tools like Nmap and Metasploit are invaluable for identifying and exploiting vulnerabilities.
+
+## Conclusion
+
+Hacking the "Blue" box on HackTheBox is a foundational experience for anyone venturing into the world of cybersecurity. It serves as a vivid reminder of the ongoing battle between cyber attackers and defenders, and the never-ending need to fortify our digital fortresses against emerging threats.
+
+Remember, in the world of cybersecurity, knowledge is not just power—it's protection.

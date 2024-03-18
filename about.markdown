@@ -4,16 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Hello and welcome! I'm Matt Young, a seasoned Data Security Analyst with a rich background in IT and cybersecurity, rooted deeply within the public sector. My journey spans over a decade, marked by relentless dedication to vulnerability management, risk assessments, and the development of comprehensive security strategies. Currently, I'm proud to serve the State of Colorado, where my expertise in leading penetration testing initiatives and malware analysis plays a pivotal role in safeguarding sensitive information and fostering a culture of cybersecurity awareness.
+Hello, and good day to you! My name is Matt, And currently in a Information Security and Compliance Analyst position. Ive got over a decade of expiernece in IT and more recently security.
 
-My professional path is underpinned by a strong educational foundation, with an Associate's Degree in Applied Science (Cyber Security) from Red Rocks Community College. This academic pursuit was complemented by my active engagement in cybersecurity extracurriculars, where I demonstrated leadership and technical proficiency as both a Penetration Testing Leader and Red Team Leader.
+My professional life has, hence, been cemented on a compelling educational foreground knitted from my academic cycles at Red Rocks Community College, where I undertook an Associate's Degree in Applied Science (Cyber Security). This was crowned with an active social life since I was part of various cyber-security extracurricular activities where I portrayed leadership and technical skills in both Penetration Testing Leadership and for the Cyber Security Club. 
 
-Beyond the confines of conventional work, my passion for cybersecurity takes on a creative form through this website. Here, I share my experiences, challenges, and the innovative solutions I've encountered in my career. My aim is to offer insights into the captivating world of CTF challenges and ethical hacking, serving both as a portfolio of my work and a resource for those embarking on their cybersecurity journey.
+It is far more beyond the bounds of ordinary work, where my interest in cybersecurity pulls up and assumes a creative expression onto this blog. It is where I put my challenges, interesting situations, and solutions from the workaday world. I am driven to give insights into the interesting world of CTF challenges and ethical hacking, at the same time serving as my portfolio in this sphere and helping people to start in cybersecurity.
 
-My certifications, including CompTIA Security+, and CHP (Certified HIPAA Professional), are testaments to my commitment to excellence and continuous learning in this ever-evolving field. These credentials, alongside my hands-on experience with leading cybersecurity tools and frameworks, empower me to craft robust security measures and strategies tailored to the nuanced needs of the public sector. 
+My certifications include CompTIA Security+ and CHP (Certified HIPAA Professional), which show how vastly passionate I am about going above and beyond at the very next levels of this highly adaptive field. While supported with such credentials, my practical hands-on experience with leading cybersecurity tools and frameworks helps me design strong security arrangements and strategies needed for the further pronounced needs in the public sector.
 
-At the heart of my approach to cybersecurity is a profound respect for the delicate balance between technological innovation and the imperatives of privacy and security. Whether through leading sophisticated phishing campaign simulations, enhancing organizational security postures, or developing security awareness programs, my focus remains steadfast on elevating cybersecurity awareness and resilience.
+Im currently studying for my CEH (Cetified Ethical Hacker) as well as for the hands on exam to be titled Certified Ethical Hacker Master. 
 
-This site is a reflection of my professional journey and a platform to connect with like-minded individuals and organizations. Whether you're a fellow cybersecurity professional, an aspiring hacker, or a potential employer, I invite you to explore my work and share in the dialogue of securing our digital world.
+This blog will be the journey of my professional life, with a way of providing me with the much-needed platform to network with like-minded people. Fellow cybersecurity professionals, aspiring hackers, or potential employers: take a look at my work and let's discuss how we can foster better security in our digital world.
 
-Feel free to reach out to me if you have any inquiries. 
+Feel free to reach out to me if you have any inquiries.

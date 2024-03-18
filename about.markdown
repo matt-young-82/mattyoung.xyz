@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, and good day to you! My name is Matt, And currently in a Information Security and Compliance Analyst position. Ive got over a decade of expiernece in IT and more recently security.
+My name is Matt, And currently in a Information Security and Compliance Analyst position. Ive got over a decade of expiernece in IT and more recently security.
 
 My professional life has, hence, been cemented on a compelling educational foreground knitted from my academic cycles at Red Rocks Community College, where I undertook an Associate's Degree in Applied Science (Cyber Security). This was crowned with an active social life since I was part of various cyber-security extracurricular activities where I portrayed leadership and technical skills in both Penetration Testing Leadership and for the Cyber Security Club. 
 

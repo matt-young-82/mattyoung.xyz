@@ -5,7 +5,7 @@ date: 2024-03-18
 categories: cybersecurity hacking HackTheBox EternalBlue
 ---
 
-Hacking the 'Blue' Box on HackTheBox: A Journey Through EternalBlue
+Hacking 'Blue' on HackTheBox: A Journey Through EternalBlue
 
 The journey through hacking the "Blue" box on HackTheBox (HTB) is both a beginning and an enlightenment for many aspiring cyber security enthusiasts. "Blue" is notably one of the simplest machines on HTB, yet it brilliantly encapsulates the dangers posed by the infamous EternalBlue exploit. This exploit has not only made headlines but has also underlined the significance of cybersecurity vigilance by being at the heart of numerous ransomware and crypto-mining attacks since its leak.
 

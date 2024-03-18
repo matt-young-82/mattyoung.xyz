@@ -10,7 +10,7 @@ My professional path is underpinned by a strong educational foundation, with an 
 
 Beyond the confines of conventional work, my passion for cybersecurity takes on a creative form through this website. Here, I share my experiences, challenges, and the innovative solutions I've encountered in my career. My aim is to offer insights into the captivating world of CTF challenges and ethical hacking, serving both as a portfolio of my work and a resource for those embarking on their cybersecurity journey.
 
-My certifications, including the EC-Council's CEH (Certified Ethical Hacker), CompTIA Security+, and CHP (Certified HIPAA Professional), are testaments to my commitment to excellence and continuous learning in this ever-evolving field. These credentials, alongside my hands-on experience with leading cybersecurity tools and frameworks, empower me to craft robust security measures and strategies tailored to the nuanced needs of the public sector.
+My certifications, including CompTIA Security+, and CHP (Certified HIPAA Professional), are testaments to my commitment to excellence and continuous learning in this ever-evolving field. These credentials, alongside my hands-on experience with leading cybersecurity tools and frameworks, empower me to craft robust security measures and strategies tailored to the nuanced needs of the public sector. 
 
 At the heart of my approach to cybersecurity is a profound respect for the delicate balance between technological innovation and the imperatives of privacy and security. Whether through leading sophisticated phishing campaign simulations, enhancing organizational security postures, or developing security awareness programs, my focus remains steadfast on elevating cybersecurity awareness and resilience.
 

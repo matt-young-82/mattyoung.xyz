@@ -3,6 +3,8 @@ layout: post
 title: "Hacking 'Blue' on HackTheBox: A Journey Through EternalBlue"
 date: 2024-03-18
 categories: cybersecurity hacking HackTheBox EternalBlue
+image: 
+    path: /img/blue.jpg
 ---
 
 Hacking 'Blue' on HackTheBox: A Journey Through EternalBlue

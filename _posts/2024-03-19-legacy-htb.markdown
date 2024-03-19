@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacking the 'Legacy' Box on Hack The Box: A Beginner's Guide"
+title:  "HackTheBox: Legacy"
 date:   2024-03-19 10:00:00 +0000
 categories: cybersecurity penetration-testing hack-the-box
 ---
